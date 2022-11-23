@@ -1,0 +1,29 @@
+.image-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  background-color: #ffffff8c;
+}
+.image-sec > :nth-child(1) {
+  width: 324px;
+  height: 60px;
+}
+.image-sec > :nth-child(2) {
+  width: 100%;
+  opacity: inherit;
+  border: 2px solid #fdbc4d !important;
+}
+.image-sec > :nth-child(3) {
+  width: 223px;
+  height: 172px;
+}
+.image-sec > :nth-child(4) {
+  font-size: 46px;
+  font-weight: 700 !important;
+}
+.formstart {
+  background-image: url("../images/banner-thank.jpg");
+  margin-top: 100px;
+}

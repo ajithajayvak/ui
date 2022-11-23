@@ -1,0 +1,41 @@
+/* .containerrs {
+  background-image: url("../../images/banner-thank.jpg");
+  
+  background-repeat: no-repeat;
+  height: auto;
+} */
+.image-sec {
+  display: flex;
+  flex-direction: column;
+  background: #004f92;
+  justify-content: center;
+  align-items: center;
+}
+.firstHead {
+  font-size: 36px;
+  color: white;
+  font-weight: 700 !important;
+}
+.secondHead {
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+}
+.lines {
+  margin: 5px 0 0 0;
+  width: 100%;
+  opacity: inherit;
+  border: 2px solid #fdbc4d !important;
+}
+.imgg {
+  position: fixed;
+  z-index: -1;
+  margin-top: 197px;
+}
+.logoo {
+  width: 270px;
+  height: 50px;
+  margin-left: 100px;
+
+  margin-top: 10px;
+}

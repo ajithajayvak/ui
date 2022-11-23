@@ -1,0 +1,138 @@
+.spnas {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-end;
+}
+.spnass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img2 {
+  margin-left: -1px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background: gray;
+  height: calc(1.5em + 0.75rem + 2px);
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+.btns {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.alerts {
+  font-size: 13px;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+  margin-top: 12px;
+}
+.labelss3 {
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 7px;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+
+  background-color: #9de8be;
+  color: white;
+}
+.labelss3:hover {
+  background-color: #004f92;
+}
+#blues {
+  background-color: #004f92;
+}
+#nocolor {
+  background-color: #9de8be;
+}
+.radio {
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 7px;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+  background-color: #9de8be;
+  color: white;
+}
+
+/* modal css */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.show_box {
+  width: 42%;
+  background: #000000b8;
+  z-index: 99999;
+  border-radius: 5px;
+  position: absolute;
+  top: 0px;
+  left: 639px;
+  height: 126.5%;
+  padding: 50px 30px;
+  display: block;
+  margin-top: 161px;
+}
+.show_txt {
+  background: #004f92;
+  border-radius: 10px;
+  padding: 15px 15px 23px 15px;
+
+  -webkit-box-shadow: 1px 2px 13px 1px rgb(0 0 0 / 40%);
+
+  margin-top: 289px;
+}
+.text-center {
+  text-align: center !important;
+}
+.sorry {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.bckbt {
+  background: #a0a0a0;
+  color: #fff;
+}
+.btn:hover {
+  background: #a0a0a0;
+  color: white;
+}
+
+/* modal css end */
