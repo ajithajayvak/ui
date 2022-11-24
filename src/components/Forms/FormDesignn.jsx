@@ -35,15 +35,15 @@ const FormDesignn = () => {
           {/* <BasicQuestion /> */}
 
           {/* <PostCode /> */}
-          {/* <PersonalDetails
+          <PersonalDetails
             validation={register}
             validationMsg={errors}
             trigger={trigger}
             clearErrors={clearErrors}
             getValues={getValues}
             setError={setError}
-          /> */}
-          <ContactDetails />
+          />
+          {/* <ContactDetails /> */}
         </form>
       </div>
     </div>

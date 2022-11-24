@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+// import "./PersonalDetails.css";
 const SelectBox = ({
   className,
   OptionValue,

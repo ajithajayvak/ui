@@ -55,7 +55,7 @@
   align-items: inherit !important;
   gap: 1rem;
 }
-/* .error_msg {
+.error_msg {
   display: block;
   clear: both;
   color: rgb(194, 71, 71);
@@ -68,4 +68,4 @@
   padding-left: 10px;
   margin-top: -16px;
   width: 145px;
-} */
+}

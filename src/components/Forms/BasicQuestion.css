@@ -120,3 +120,12 @@ ul {
 li {
   padding: 0px !important;
 }
+
+/* pop area start */
+.outer1 {
+  background: rgb(224, 36, 36);
+  width: 100%;
+  height: auto;
+  z-index: 111;
+}
+/* popup area end  */
